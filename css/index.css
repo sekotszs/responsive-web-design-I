@@ -182,16 +182,16 @@ table {
     }   
     nav{
         flex-direction: column-reverse;
-        padding-left: 20%;
+        justify-content: space-between;
        
     } 
     .info{
     
     margin-top:15%;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     text-align: center;
-    width: 100%;
+    width: 100%
     
   }
 footer #end{
@@ -204,6 +204,7 @@ footer #end{
 
 nav a{
     border-bottom: grey solid 1px;
+    
 }
 nav a:nth-child(1) {
     border-top: 1px solid grey;
@@ -223,45 +224,42 @@ nav a:nth-child(1) {
 
 }
 
-
-/*MEDIA FOR TABLET*/
 @media (max-width: 800px){
 
-    .info{
-    
-        margin-top:15%;
-        justify-content:space-between;
-        flex-direction: row;
-        text-align: center;
-        width: 60%;
-        
-        
-      }
-    footer #end{
-       margin-left: 25%;
-      
-        }
     #codestuff{
         display: none;
     }
 
-    .middle-img{
-        width: 150%;
-        
+   nav{
+       justify-content: space-evenly;
+   }
+
+    
+
+    .one{
+        text-align:center;
+        width:40%;
     }
+    .one p{
+        text-align:justify;
+    }
+
     .bandt{
-        padding: 20%;
-        border: red solid 3px;
-        margin-bottom: 0%;
+
+        padding: 20%
     }
-    .info h2{
-        text-align: left;
-        justify-content: flex-start;
-    }
-   
-  
+     .two{
+        text-align:center;
+        width:25%;
+     }
+
+     .two p{
+        text-align:justify;
+    }  
+
 
 
 
 
 }
+
