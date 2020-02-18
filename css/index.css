@@ -72,7 +72,7 @@ table {
     
     .container{
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 1000px;
     }
     
     header {display:flex;
@@ -173,7 +173,7 @@ table {
          font-size: 20px;
      }
 
-     /*MEDIA*/
+     /*MEDIA FOR MOBILE*/
 
      @media (max-width: 500px){
     body{
@@ -220,5 +220,48 @@ nav a:nth-child(1) {
     text-align: left;
     justify-content: flex-start;
 }
+
+}
+
+
+/*MEDIA FOR TABLET*/
+@media (max-width: 800px){
+
+    .info{
+    
+        margin-top:15%;
+        justify-content:space-between;
+        flex-direction: row;
+        text-align: center;
+        width: 60%;
+        
+        
+      }
+    footer #end{
+       margin-left: 25%;
+      
+        }
+    #codestuff{
+        display: none;
+    }
+
+    .middle-img{
+        width: 150%;
+        
+    }
+    .bandt{
+        padding: 20%;
+        border: red solid 3px;
+        margin-bottom: 0%;
+    }
+    .info h2{
+        text-align: left;
+        justify-content: flex-start;
+    }
+   
+  
+
+
+
 
 }
